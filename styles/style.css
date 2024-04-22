@@ -1,0 +1,91 @@
+/* 1. don't modify this style */
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
+:root {
+  /* --"somekey-attr": "somevalue" i.e : */
+  --black-700: #000;                            /*class color not working in my pycharm*/
+  --secondary-color:#FA8305;                    /*i use regular coloring...*/
+}
+/* 3. and we use it like this */
+.elementOne {
+  /* var(--"somekey-attr") */
+
+}
+
+
+@font-face {
+  font-family: pop800;
+  src: url(../assets/fonts/Poppins-ExtraBold.ttf) ;
+}
+@font-face {
+  font-family: pop400;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: pop700;
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: pop500;
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: pop300;
+  src: url(../assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: pop200;
+  src: url(../assets/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: rubik700;
+  src: url(../assets/fonts/Rubik-Bold.ttf);
+}
+@font-face {
+  font-family: rubik500;
+  src: url(../assets/fonts/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: rubik400;
+  src: url(../assets/fonts/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: pop100;
+  src: url(../assets/fonts/Poppins-Thin.ttf);
+}
+.pop400{
+  font-family: pop400;
+}
+.pop800{
+  font-family: pop800;
+}
+
+.bg-Purple{
+    background-color: rgb(59, 42, 159)
+}
+.bg-orange{
+ background-color: rgb(250,131,5);
+}
+
+
+
+
+.Logo{
+  margin-top:25px;margin-left:59.18px;font-size: 29px;text-decoration: none;
+}
+.p-Logo{
+  margin-left: -100px;
+  margin-top: -30px;
+}
+.m-theme{
+  margin-right: -100px;
+}
+.ml-nav{
+  margin-left: 59px;
+}
