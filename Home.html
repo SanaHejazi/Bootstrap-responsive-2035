@@ -8,23 +8,22 @@
   <meta name="description" content="My Gaming Website">                        <!-- description -->
   <link href="styles/style.css" rel="stylesheet" type="text/css">           <!-- link style -->
   <link rel="icon" type="image/x-icon" href="assets/images/Logo.jpg">      <!-- favicon -->
-  <link href="styles/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <script src="styles/bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   <title>GAMiFY</title>
-
-
-
 </head>
 
 
 <body id="Home">
 
-<header class="bg-Purple  ">
-  <nav class="navbar navbar-expand-sm">
+<header class="bg-Purple">
+
+  <nav class="navbar navbar-expand d-none d-lg-block ">
   <div class="container">
-    <a class="Logo  text-light pop400 p-Logo pop800 ">LOGO</a>
-        <ul class="navbar-nav pt-5">
+    <a class="textdecorationoff h2 ps-5 text-light pop400 p-Logo pop800 ">LOGO</a>
+        <ul class="navbar-nav pt-5 ">
           <li>
-              <a class="text-light nav-link ps-5 pe-5 pop400 " href="">News</a>
+              <a class="text-white nav-link ps-5 pe-5 pop400 " href="">News</a>
           </li>
           <li>
             <a class="text-light nav-link ps-5 pe-5 pop400" href="">About Us</a>
@@ -42,8 +41,75 @@
   </div>
   </nav>
 
+  <nav class="navbar navbar-expand d-none d-md-block d-lg-none">
+  <div class="container">
+    <a class="textdecorationoff h3 ps-4 text-light p-Logo pop800 ">LOGO</a>
+    <button class="btn " data-bs-toggle="collapse" href="#mdNav" role="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="mdNav" class="collapse">
+        <ul class="navbar-nav pt-5" >
+          <li>
+              <a class="text-light nav-link pe-3 pop400 " href="">News</a>
+          </li>
+          <li>
+            <a class="text-light nav-link pe-3 pop400" href="">About Us</a>
+          </li>
+          <li>
+            <a class="text-light nav-link pe-3 pop400" href="Games.html">Games</a>
+          </li>
+          <li>
+             <a class="text-light  nav-link pe-3  pop400" href="#Home">Home</a>
+          </li>
+          <li class="bg-orange px-4 rounded  ">
+            <a class="text-light  nav-link" href="">Page Theme</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+<nav class="navbar navbar-expand d-block d-md-none">
+  <div class="container">
+    <a class="textdecorationoff text-light pop800 ">LOGO</a>
+    <button class="btn" data-bs-toggle="collapse" href="#mdNav1" role="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="mdNav1" class="collapse">
+        <ul class="navbar-nav pt-5" >
+          <li>
+              <a class="text-light nav-link pe-3 pop400 " href="">News</a>
+          </li>
+          <li>
+            <a class="text-light nav-link pe-3 pop400" href="">About Us</a>
+          </li>
+          <li>
+            <a class="text-light nav-link pe-3 pop400" href="Games.html">Games</a>
+          </li>
+          <li>
+             <a class="text-light  nav-link pe-3  pop400" href="#Home">Home</a>
+          </li>
+          <li class="bg-orange px-4 rounded  ">
+            <a class="text-light  nav-link" href="">Page Theme</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </nav>
 
 </header>
+
+
+
+
+
+
+
+
+
+
 
 <main>
 

@@ -1,23 +1,3 @@
-/* 1. don't modify this style */
-* {
-  padding: 0;
-  margin: 0;
-
-  box-sizing: border-box;
-}
-
-/* 2. we use :root for default variables */
-:root {
-  /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;                            /*class color not working in my pycharm*/
-  --secondary-color:#FA8305;                    /*i use regular coloring...*/
-}
-/* 3. and we use it like this */
-.elementOne {
-  /* var(--"somekey-attr") */
-
-}
-
 
 @font-face {
   font-family: pop800;
@@ -66,6 +46,7 @@
   font-family: pop800;
 }
 
+
 .bg-Purple{
     background-color: rgb(59, 42, 159)
 }
@@ -73,11 +54,14 @@
  background-color: rgb(250,131,5);
 }
 
-
-
-
 .Logo{
   margin-top:25px;margin-left:59.18px;font-size: 29px;text-decoration: none;
+}
+.textdecorationoff{
+  text-decoration: none;
+}
+.Logo-tablet{
+  padding-top:40px;padding-left:15px;font-size: 29px;text-decoration: none;
 }
 .p-Logo{
   margin-left: -100px;
@@ -89,3 +73,4 @@
 .ml-nav{
   margin-left: 59px;
 }
+
