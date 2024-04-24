@@ -45,32 +45,57 @@
 .pop800{
   font-family: pop800;
 }
-
+.pop700{
+  font-family: pop700;
+}
 
 .bg-Purple{
     background-color: rgb(59, 42, 159)
 }
+.bg-Purple2{
+  background-color: #5141AA;
+}
 .bg-orange{
  background-color: rgb(250,131,5);
 }
-
-.Logo{
-  margin-top:25px;margin-left:59.18px;font-size: 29px;text-decoration: none;
+.text-orange{
+  color: rgb(250,131,5);
 }
+
 .textdecorationoff{
   text-decoration: none;
 }
-.Logo-tablet{
-  padding-top:40px;padding-left:15px;font-size: 29px;text-decoration: none;
+
+@media screen and (min-width: 1140px) {
+  #image1{
+  height: 761px;
+  width: 606px;
+    position: absolute;
 }
-.p-Logo{
-  margin-left: -100px;
-  margin-top: -30px;
+#image2{
+  height: 64px;
+  width: 59px;
+  margin-top: 118px;
+  margin-left: 364px;
+  position: absolute;
+
 }
-.m-theme{
-  margin-right: -100px;
+#image3{
+  height: 99px;
+  width: 101px;
+  margin-top: 102px;
+  position: absolute;
+  margin-left: 5%;
 }
-.ml-nav{
-  margin-left: 59px;
+#image4{
+  position: absolute;
+  margin-top: 309px;
+  width: 96px;
+  height:30px;
 }
+.pl{
+  padding-left: 20%;
+}
+}
+
 
