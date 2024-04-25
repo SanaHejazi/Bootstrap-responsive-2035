@@ -42,13 +42,19 @@
 .pop400{
   font-family: pop400;
 }
+.pop500
+{
+  font-family: pop500;
+}
 .pop800{
   font-family: pop800;
 }
 .pop700{
   font-family: pop700;
 }
-
+.pop200{
+  font-family: pop200;
+}
 .bg-Purple{
     background-color: rgb(59, 42, 159)
 }
@@ -61,10 +67,23 @@
 .text-orange{
   color: rgb(250,131,5);
 }
+.bg-fulldark{
+  background-color: #070707;
+}
 
 .textdecorationoff{
   text-decoration: none;
 }
+.mt-10{
+margin-top: 10%;
+}
+.mt-15{
+  margin-top: 15%;
+}
+.mt-30{
+  margin-top: 30%;
+}
+
 
 @media screen and (min-width: 1140px) {
   #image1{
@@ -93,9 +112,84 @@
   width: 96px;
   height:30px;
 }
+#ImgBig {
+  position: relative;
+  z-index: 1;
+  width: 1164px;
+  height: 462px;
+  border-radius: 5px;
+  padding-top: 46px;
+  margin-left: 146px;
+}
+
+#dottedbgn{
+  z-index: 0;
+  width: 196px;
+  height: 154px;
+  position: absolute;
+  margin-left: 972px;
+}
+
 .pl{
   padding-left: 20%;
 }
+.ml-15{
+  margin-left: 10%;
+}
+}
+@media  screen and (max-width: 1139px){
+#ImgBig1{
+  width: 576px;
+  height: 462px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+  #img1{
+width: 352px;
+    height: 223px;
+  }
+  #img2{
+    width: 280px;
+    height: 223px;
+  }
+  #img3{
+    width: 305px;
+    height: 223px;
+  }
+  #img4{
+    width: 335px;
+    height: 223px;
+  }
+  #img5{
+    width: 246px;
+    height: 223px;
+  }
+  #img6{
+    width: 401px;
+    height: 223px;
+  }
+  .ml-15{
+  margin-left: 15%;
+}
+}
+@media screen and (max-width: 767px){
+#ImgBig1{
+  width: 452px;
+  height: 382px;
+
+}
+  #img3{
+    width: 401px;
+    height: 223px;
+  }
+  #img2{
+    width: 401px;
+    height: 223px;
+  }
+  #img1{
+    width: 401px;
+    height: 223px;
+  }
 }
 
 
