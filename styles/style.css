@@ -1,3 +1,9 @@
+:root{
+  --primary-color: rgb(59, 42, 159);
+  --primary-color100: #5141AA;
+  --seconbdary-color:rgb(250,131,5);
+  --black-color:#070707;
+}
 
 @font-face {
   font-family: pop800;
@@ -55,20 +61,22 @@
 .pop200{
   font-family: pop200;
 }
-.bg-Purple{
-    background-color: rgb(59, 42, 159)
+
+
+.primary-color{
+  background-color: var(--primary-color);
 }
-.bg-Purple2{
-  background-color: #5141AA;
+.primary-color100{
+  background-color: var(--primary-color100);
 }
-.bg-orange{
- background-color: rgb(250,131,5);
+.secondary-color{
+  background-color: var(--seconbdary-color);
 }
-.text-orange{
-  color: rgb(250,131,5);
+.secondary-text{
+  color: var(--seconbdary-color);
 }
-.bg-fulldark{
-  background-color: #070707;
+.black-color{
+  background-color: var(--black-color);
 }
 
 .textdecorationoff{
