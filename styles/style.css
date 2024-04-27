@@ -1,9 +1,10 @@
-:root{
+:root {
   --primary-color: rgb(59, 42, 159);
   --primary-color100: #5141AA;
   --seconbdary-color:rgb(250,131,5);
   --black-color:#070707;
 }
+
 
 @font-face {
   font-family: pop800;
@@ -45,6 +46,15 @@
   font-family: pop100;
   src: url(../assets/fonts/Poppins-Thin.ttf);
 }
+
+
+
+
+
+
+
+
+
 .pop400{
   font-family: pop400;
 }
@@ -62,21 +72,20 @@
   font-family: pop200;
 }
 
-
 .primary-color{
-  background-color: var(--primary-color);
+  background-color: rgb(59, 42, 159);
 }
 .primary-color100{
-  background-color: var(--primary-color100);
+  background-color:#5141AA;
 }
 .secondary-color{
-  background-color: var(--seconbdary-color);
+  background-color: rgb(250,131,5);
 }
 .secondary-text{
-  color: var(--seconbdary-color);
+  color: rgb(250,131,5);
 }
 .black-color{
-  background-color: var(--black-color);
+  background-color: #070707;
 }
 
 .textdecorationoff{
@@ -179,6 +188,13 @@ width: 352px;
   .ml-15{
   margin-left: 15%;
 }
+  .menueline {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 7px ;
+}
+
 }
 @media screen and (max-width: 767px){
 #ImgBig1{
@@ -210,6 +226,13 @@ width: 352px;
   .icon-sm-pleft{
     padding-left: 50px;
   }
+  .menueline {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 7px ;
+}
+
 }
 
 

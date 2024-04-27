@@ -16,88 +16,52 @@
 
 <body id="Home" class="primary-color">
 
-<header >
+<header class=" p-4 navbar " >
 
-  <nav class="navbar navbar-expand d-none d-lg-block ">
-  <div class="container">
-    <a class="textdecorationoff h2 ps-5 text-light pop400 p-Logo pop800 ">LOGO</a>
-        <ul class="navbar-nav pt-5 ">
-          <li>
-              <a class="text-white nav-link ps-5 pe-5 pop400 " href="">News</a>
-          </li>
-          <li>
-            <a class="text-light nav-link ps-5 pe-5 pop400" href="">About Us</a>
-          </li>
-          <li>
-            <a class="text-light nav-link ps-5 pe-5 pop400" href="Games.html">Games</a>
-          </li>
-          <li>
-             <a class="text-light  nav-link pe-5 ps-5  pop400" href="#Home">Home</a>
-          </li>
-          <li class="secondary-color px-4 rounded  ">
-            <a class="text-light  nav-link" href="">Page Theme</a>
-          </li>
-        </ul>
-  </div>
-  </nav>
 
-  <nav class="navbar navbar-expand d-none d-md-block d-lg-none">
-  <div class="container">
-    <a class="textdecorationoff h3 ps-4 text-light p-Logo pop800 ">LOGO</a>
-    <button class="btn " data-bs-toggle="collapse" href="#mdNav" role="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div id="mdNav" class="collapse">
-        <ul class="navbar-nav pt-5" >
-          <li>
-              <a class="text-light nav-link pe-3 pop400 " href="">News</a>
-          </li>
-          <li>
-            <a class="text-light nav-link pe-3 pop400" href="">About Us</a>
-          </li>
-          <li>
-            <a class="text-light nav-link pe-3 pop400" href="Games.html">Games</a>
-          </li>
-          <li>
-             <a class="text-light  nav-link pe-3  pop400" href="#Home">Home</a>
-          </li>
-          <li class="secondary-color px-4 rounded  ">
-            <a class="text-light  nav-link" href="">Page Theme</a>
-          </li>
-        </ul>
+      <h1 class="pop800 ps-4 text-white">LOGO</h1>
+      <div class="d-none d-lg-block h5 pe-5 me-5 pop400 pt-4">
+        <a href="Home.html"
+          class="text-white link-offset-2 link-underline link-underline-opacity-0 px-3">Home</a>
+        <a href="games.html" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-5">Games</a>
+        <a href="#foot" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">About us</a>
+        <a href="" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">News</a>
+        <a href=""><button class="secondary-color text-white rounded-3 px-3 py-2 border-0 h6">Page theme</button></a>
       </div>
-  </div>
-  </nav>
 
-<nav class="navbar navbar-expand d-block d-md-none">
-  <div class="container">
-    <a class="textdecorationoff text-light pop800 ">LOGO</a>
-    <button class="btn" data-bs-toggle="collapse" href="#mdNav1" role="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="d-lg-none d-block">
+        <button class="navbar-toggler text-white border border-white border-2 rounded-4 p-2 " type="button"
+          data-bs-toggle="collapse" data-bs-target="#Nav" aria-controls="Nav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <div class=" menueline "></div>
+          <div class=" menueline "></div>
+        </button>
+      </div>
 
-    <div id="mdNav1" class="collapse">
-        <ul class="navbar-nav pt-5" >
-          <li >
-              <a class="text-light nav-link pe-3 pop400 h6" href="">News</a>
+
+      <div class="collapse navbar-collapse" id="Nav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a href=""><button class="secondary-color text-white rounded-3 px-3 py-2 mt-md-4 mt-lg-0 border-0 h6">Page theme</button></a>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="./index.html">Games</a>
           </li>
-          <li>
-            <a class="text-light nav-link pe-3 pop400 h6" href="">About Us</a>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="./index.html">About us</a>
           </li>
-          <li>
-            <a class="text-light nav-link pe-3 pop400 h6" href="Games.html">Games</a>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="./index.html">Home</a>
           </li>
-          <li>
-             <a class="text-light  nav-link pe-3  pop400 h6" href="#Home">Home</a>
-          </li>
-          <li class="secondary-color px-4 rounded  ">
-            <a class="text-light  nav-link h6" href="">Page Theme</a>
+          <li class="nav-item">
+            <a class="nav-link text-white " aria-current="page" href="#">News</a>
           </li>
         </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
       </div>
-  </div>
-  </nav>
+
+
 
 
 </header>
@@ -129,9 +93,9 @@
     <div class="col-lg-5 order-sm-first order-lg-last ">
   <section class="ps-sm-5 ms-sm-5 ps-lg-0 ms-lg-0">
     <img class="ps-sm-5 ms-sm-5 ps-lg-0 ms-lg-0 d-none d-sm-block" src="assets/images/img1.png" id="image1" >
-    <img class="d-none d-lg-block"  src="assets/images/img2.png" id="image2">
-    <img class="d-none d-lg-block" src="assets/images/img3.png" id="image3">
-    <img class="d-none d-lg-block" src="assets/images/unity 1.png" id="image4">
+    <img class="d-none d-xl-block"  src="assets/images/img2.png" id="image2">
+    <img class="d-none d-xl-block" src="assets/images/img3.png" id="image3">
+    <img class="d-none d-xl-block" src="assets/images/unity 1.png" id="image4">
   </section>
       </div>
 </div>
