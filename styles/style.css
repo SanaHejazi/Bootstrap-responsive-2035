@@ -5,6 +5,8 @@
   --black-color:#070707;
 }
 
+header a:active{ text-decoration:underline var(--seconbdary-color) solid }
+main li a:hover{opacity: 50%}
 
 @font-face {
   font-family: pop800;
@@ -53,8 +55,6 @@
 
 
 
-
-
 .pop400{
   font-family: pop400;
 }
@@ -73,19 +73,19 @@
 }
 
 .primary-color{
-  background-color: rgb(59, 42, 159);
+  background-color: var(--primary-color)
 }
 .primary-color100{
-  background-color:#5141AA;
+  background-color:var(--primary-color100)
 }
 .secondary-color{
-  background-color: rgb(250,131,5);
+  background-color: var(--seconbdary-color)
 }
 .secondary-text{
-  color: rgb(250,131,5);
+  color: var(--seconbdary-color)
 }
 .black-color{
-  background-color: #070707;
+  background-color: var(--black-color)
 }
 
 .textdecorationoff{
@@ -146,7 +146,6 @@ margin-top: 10%;
   position: absolute;
   margin-left: 972px;
 }
-
 .pl{
   padding-left: 20%;
 }
